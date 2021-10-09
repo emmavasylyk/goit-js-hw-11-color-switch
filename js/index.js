@@ -7,6 +7,7 @@ const colors = [
   '#795548',
 ];
 
+
 let intervalId = null
 let isActive = false
 
