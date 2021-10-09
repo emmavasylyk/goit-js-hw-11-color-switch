@@ -33,10 +33,11 @@ function onStopClick() {
 }
 
 function changeBodyColor() {
-   refs.bodyRefs.style.backgroundColor = colors[randomIntegerFromInterval(0, 5)]
+   refs.bodyRefs.style.backgroundColor = colors[randomIntegerFromInterval(0, colors.length-1)]
 }
 
 const randomIntegerFromInterval = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1) + min);
 };
+
 
